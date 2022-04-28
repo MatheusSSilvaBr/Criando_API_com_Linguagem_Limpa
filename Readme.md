@@ -20,3 +20,7 @@ Com yarn tsc cria uma classe js, como o server.js, para não criar inúmeros doc
 ## Dia 3
 
 Para não precisar incluir os itens de uma request em ordem específica podemos criar uma interface
+
+## Dia 4
+
+Link de como instalar e configurar o [ESLint e Prettier](https://www.notion.so/ESLint-e-Prettier-Trilha-Node-js-d3f3ef576e7f45dfbbde5c25fa662779#eaf6e8bdcabc4d809cdae302e29750da)
