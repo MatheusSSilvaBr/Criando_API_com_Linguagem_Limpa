@@ -31,3 +31,7 @@ Instalando a biblioteca yarn ts-node-dev -D não precisa ficar realizando a conv
 Desabilitamos o strict do tsconfig.json para deixar a responsabilidade de verificar se tem erros para o typescript
 
 Para cada recurso que criaremos, criaremos uma rota.
+
+## Dia 5
+
+Usamos o model para colocar os modelos do objeto, o repository ficou com as responsabilidades de manejar os dados para que as rotas não tivessem acesso ao mesmo, deixando o código mais limpo e seguro.
