@@ -35,3 +35,14 @@ Para cada recurso que criaremos, criaremos uma rota.
 ## Dia 5
 
 Usamos o model para colocar os modelos do objeto, o repository ficou com as responsabilidades de manejar os dados para que as rotas não tivessem acesso ao mesmo, deixando o código mais limpo e seguro.
+
+## Dia 6
+
+Estou começando a estudar o desenvolvimento em SOLID
+
+[S]ingle Responsability Principle (Princípio da Responsabilidade Única);
+[O]pen/Closed Principle (Princípio do Aberto/Fechado);
+[L]iskov Substitution Principle (Princípio da Substituição de Liskov);
+[I]nterface Segregation Principle (Princípio da Segregação de Interfaces);
+[D]ependency Inversion Principle (Princípio da Inversão de Dependências).
+

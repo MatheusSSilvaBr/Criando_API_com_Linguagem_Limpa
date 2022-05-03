@@ -1,12 +1,12 @@
 import {Category} from "../model/Category";
+import { 
+    ICreateCategoryDTO,
+    ICategoriesRepository, 
+} from "./ICategoriesREpository";
 
-//DTO - Data transfer object
-interface ICreateCategoryDTO {
-    name:string;
-    description: string;
-}
 
-class CategoriesRepository {
+
+class CategoriesRepository implements ICategoriesRepository {
 
     private categories: Category [] = [];
 
@@ -14,7 +14,7 @@ class CategoriesRepository {
         this.categories = [];
     }
 
-    create({description, name} : ICreateCategoryDTO): void{
+    create({name, description}: ICreateCategoryDTO): void{
         const category: Category = new Category();
 
         Object.assign(category, {
